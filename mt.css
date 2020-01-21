@@ -9,3 +9,23 @@ h3{
     font-size: 25px;
     font-weight: 900;
 }
+#pics{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding;20px;
+}
+
+table, th, td{
+    padding: 5px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+#about{
+    width: 280px;
+    height:auto;
+    background-color: cadetblue;
+    float: right;
+    padding: 55px;
+
+}
