@@ -1,10 +1,9 @@
 body{
-    background-image: url("mountain.jpg");
     font-size: x-large;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 1700px 1700px;
-    background-color: rgb;
+    background-color: cadetblue;
 }
 h3{
     font-size: 25px;
@@ -23,14 +22,7 @@ table, th, td{
     border-collapse: collapse;
     border: 2px solid black;
 }
-#about{
-    width: 280px;
-    height:auto;
-    background-color: cadetblue;
-    float: right;
-    padding: 55px;
 
-}
 
 .efficiency{
     height: 500px;
@@ -53,26 +45,28 @@ table, th, td{
     float: left;
     }
 
+    #about{
+        width: 280px;
+        height:auto;
+        background-color: cadetblue;
+        float: right;
+        padding: 55px;
+    
+    } 
+#team{
+    display:inline-block;
+    float:left;
+}
+#contacts{
+    display: inline-block;
+}
 
 
 
-
-
-
-
-
-
-<ul>
-                <li class="efficiency"><b>Efficiency</b></li>
-                <p>Here at Live the Dash, we are strong believers and advocators of efficiency in the workplace.</p>
-                <li><b>Equality</b></li>
-                <p>Essentially, equality in the workplace means that no person should experience 
-                    or fear discrimination based on their gender, sex, age, race, etc. </p>
-                <li class="respect"><b>Respect</b></li>
-                <p>At Live the Dash, respect is accorded to everyone equally, regardless of their position in the firm. 
-                Our clients are also accorded the same amount of respect with no discrimination.</p>
-                <li class="honesty"><b>Honesty and Integrity</b></li>
-                <p>
-                    We act with integrity in all we do.""
-                </p>
-            </ul>    
+<div id="gallery">
+    <h3>Here are some media footages and images shot during our various activities.</h3>
+    <img src="bikes.jpg" alt="bikes" height="300px" width="300px">   
+    <img src="scenery.jpg" alt="scenery" height="300px" width="300px">
+    <img src="sceneryy.jpg" alt="scenery" height="300px" width="300px"> <br>
+    
+</div>
