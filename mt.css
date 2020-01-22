@@ -3,7 +3,12 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 1700px 1700px;
-    background-color: cadetblue;
+    background-color: tan;
+    font-family: 'Roboto', sans-serif;
+}
+h4{
+    text-align: center;
+    font-size: xx-large;
 }
 h3{
     font-size: 25px;
@@ -56,24 +61,32 @@ table, th, td{
         background-color: cadetblue;
         float: right;
         padding: 55px;
-    
+        font-family: 'Open Sans Condensed', sans-serif; 
+        
     } 
+
+
 #team{
     display:inline-block;
     float:left;
 }
+
 
 }
 .paint{
     float: left;
 }
 
+
 .gallery{
     float: left;
 }
+
+
  .form{
      float: left;
  }
+ 
 
 #gallery{
     display: inline-block;
