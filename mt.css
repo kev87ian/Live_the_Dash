@@ -15,7 +15,11 @@ h3{
     width: 30%;
     padding;20px;
 }
-
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
 table, th, td{
     align-self: center;
     padding: 5px;
@@ -34,6 +38,7 @@ table, th, td{
     width: 250px;
     height: 200px;
     padding: 45px;
+    
     background-color: lightgreen;
     -moz-border-radius: 75px;
     -webkit-border-radius: 75px;
@@ -70,59 +75,6 @@ table, th, td{
      float: left;
  }
 
-
-
-
-
-<img src="paint.jpg" width="30%" class="paint">
-
-
-<div id="contacts">
-    <h3>Reach us on:</h3>
-    <p>Hawi Nyambura: 0790 567 834, or n.hawi@zoho.com</p>
-    <p>Samuel Kibe: 0723 890 546, or kibesam91@gmail.com</p>
- </div>
-
-
- <form>
-    First name:<br>
-    <input type="text" name="firstname"><br>
-    Last name:<br>
-    <input type="text" name="lastname"><br>
-    Email: <br>
-    <input type="text" name="email"><br>    
-    Phone Number: <br>
-    <input type="number" name="number"> <br>
-    Message: <br>
-    <input type="text" name="message"> <br>
-
-    <input type="submit" value="Submit">
-</form>
-<br>
-<footer>
-    <strong><i>Why us?</i></strong> <br>
-    <p>We're pocket-friendly and efficient in all we do. </p>
-</footer>
-
-</body>
-
-<div id="team">
-
-    <h3>Team</h3>
-    <p>Our company is family-run by two siblings, Hawi Nyambura and Samuel Kibe. 
-        We have a team under them, but they run the business.
-        They oversee the day to day activities of the company. </p>
-        <div class="team">]
-            <img src="ceo2.jpg" alt="Sam Kibe" style="width: 10%">
-            <div class="container">
-                <h4><b>Samuel Kibe</b></h4>
-        
-            </div>
-        
-        </div> 
-    <div class="team">
-        <img src="ceolady.jpeg" alt="Hawi" style="width: 10%">
-                <h4><b>Hawi Nyambura</b></h4>
-    </div>   
-        
-</div>
+#gallery{
+    display: inline-block;
+}
