@@ -7,8 +7,17 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 h4{
+    text-shadow: 3px 2px lightgreen;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: xx-large;
+    text-decoration: wavy;
+    font-size: 50px;
+
+}
+
+.desc{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif; 
 }
 h3{
     font-size: 25px;
