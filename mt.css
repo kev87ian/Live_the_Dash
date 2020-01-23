@@ -2,9 +2,10 @@ body{
     font-size: x-large;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1700px 1700px;
-    background-color: tan;
     font-family: 'Roboto', sans-serif;
+    background-image:url("background.jpg");
+    color:white;
+
 }
 h4{
     text-shadow: 3px 2px lightgreen;
@@ -38,7 +39,7 @@ table, th, td{
     align-self: center;
     padding: 5px;
     border-collapse: collapse;
-    border: 2px solid black;
+    border: 2px solid greenyellow;
 }
 
 
@@ -62,12 +63,13 @@ table, th, td{
     font-size: medium;
      line-height: 1.6;" href=""><sup style="vertical-align: middle;">$</sup><span style="font-size: 70px;
     float: left;
+    color:black;
     }
 
     #about{
         width: 280px;
         height:auto;
-        background-color: cadetblue;
+        
         float: right;
         padding: 55px;
         font-family: 'Open Sans Condensed', sans-serif; 
